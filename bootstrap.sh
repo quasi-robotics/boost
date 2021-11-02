@@ -391,6 +391,8 @@ option.set includedir : $INCLUDEDIR ;
 
 # Stop on first error
 option.set keep-going : false ;
+
+using mpi ;
 EOF
 
 cat << EOF
